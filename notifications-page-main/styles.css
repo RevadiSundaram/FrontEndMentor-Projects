@@ -48,8 +48,12 @@ p{
     cursor: pointer;
     
 }
+
 .unread{
     background-color: hsl(205, 33%, 90%);
+}
+.read{
+    background-color:  hsl(0, 0%, 100%);
 }
 .box{
     border: 1px solid grey;
@@ -92,7 +96,9 @@ i{
     font-size: 8px;
     color: hsl(1, 90%, 64%);
 }
-
+.null{
+    color: hsl(0, 0%, 100%);
+}
 
 @media (min-width: 500px){
     .container{
