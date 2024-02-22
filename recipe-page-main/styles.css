@@ -22,6 +22,7 @@ main{
     padding: 30px;
     border-radius: 10px;
     background-color: hsl(0, 0%, 100%);
+    margin: 100px 0;
 }
 h1,h2{
     font-family: "Young Serif", sans-serif;
