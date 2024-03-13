@@ -27,9 +27,9 @@ submitBtn.addEventListener('click', function(e){
         errorElement[3].textContent = "Password cannot be empty";
     }
     console.log(validateEmail(email.value));
-    if(email.value != validateEmail(email.value)){
+    if(validateEmail(email.value) == false){
         email.value = '';
-        email.value = 'email@email.com';
+        email.value = 'email@example/com';
         email.style.color = 'hsl(0, 100%, 74%)';
         email.classList.add('border');
         errorElement[2].textContent = "Looks like this is not an email";
