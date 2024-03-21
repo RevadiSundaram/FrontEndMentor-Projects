@@ -37,6 +37,7 @@ main{
 }
 h1{
     font-size: 40px;
+    color: hsl(232, 13%, 33%);
 }
 .section-1{
     display: flex;
@@ -56,11 +57,15 @@ h1{
 }
 .price{
     align-self: center;
+    color: hsl(232, 13%, 33%);
 }
 .grey, .det{
     color: hsl(233, 13%, 49%);
 }
 .middle p,h2{
+    color: white;
+}
+.middle .price{
     color: white;
 }
 h2{
