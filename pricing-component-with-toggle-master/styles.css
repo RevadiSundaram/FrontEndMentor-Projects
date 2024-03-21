@@ -11,8 +11,13 @@ body{
     justify-content: center;
     min-height: 100vh;
     background-color: hsl(240, 78%, 98%);
-    color: hsl(232, 13%, 33%);
+    color: hsl(228, 38%, 3%);
     overflow: hidden;
+    background-image:
+    url("/images/bg-bottom.svg"),
+    url("/images/bg-top.svg");
+    background-position: left bottom, right top;
+    background-repeat: no-repeat;
 
 }
 main{
@@ -45,8 +50,18 @@ h1{
     background-color: white;
     padding: 40px;
     border-radius: 10px;
+    width: 300px;
     /* align-items: center;
     justify-content: center; */
+}
+.price{
+    align-self: center;
+}
+.grey, .det{
+    color: hsl(233, 13%, 49%);
+}
+.middle p,h2{
+    color: white;
 }
 h2{
     margin: 0 0 20px 0;
@@ -101,12 +116,7 @@ label{
     color: white;
     border: 1px solid white;
 }
-.card p,h2{
-    color: hsl(233, 13%, 49%);
-}
-.middle p,h2{
-    color: white;
-}
+
 .switch {
     position: relative;
     display: inline-block;
